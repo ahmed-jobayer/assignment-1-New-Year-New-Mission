@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("../resources/Banner\ Image.png");
+  height: 520px;
+  margin: 50px 120px 0 120px;
+  border-radius: 16px;
+  color: #fff;
+  font-family: "Merriweather", serif;
+}
+header > div > h3 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 175px;
+}
+
+header > div > h2 {
+  text-align: center;
+  font-size: 72px;
+}
+
+/* styles of main */
+
+.main-one {
+  width: 1600px;
+  height: 7335px;
+}
