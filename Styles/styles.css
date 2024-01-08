@@ -12,7 +12,9 @@
 }
 
 .banner {
-  background-image: url("../resources/Banner\ Image.png");
+  /* background-image: url("../resources/Banner\ Image.png"); */
+  background: url("../resources/Banner\ Image.png") no-repeat left top,
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   height: 520px;
   margin: 50px 120px 0 120px;
   border-radius: 16px;
@@ -80,6 +82,7 @@ header > div > h2 {
   display: flex;
   justify-content: space-between;
   margin-right: 140px;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 
 .welcome {
@@ -111,4 +114,47 @@ header > div > h2 {
   width: 320px;
   height: 465px;
   padding: 70px 148px 78px 0;
+}
+
+/* styles of main three */
+
+.main-three {
+  margin: 140px;
+}
+
+.main-three-h4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.main-three-h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding: 20px 0 20px 0;
+}
+
+.main-three-p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.main-3p1 {
+  display: flex;
+  padding: 0 0 25px 0;
+  gap: 25px;
+
+}
+
+.main-3p2 {
+  display: flex;
+  gap: 25px;
+}
+
+.rect4 {
+  border-right: 10px solid black;
 }
