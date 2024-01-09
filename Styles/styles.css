@@ -78,7 +78,7 @@ header > div > h2 {
 
 .main-two {
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../resources/Vectorrr.png");
+  url("../resources/Vectorrr.png");
   height: 600px;
   width: 1320px;
   background-repeat: no-repeat;
@@ -87,7 +87,6 @@ header > div > h2 {
   display: flex;
   justify-content: space-between;
   margin-right: 140px;
-  /* fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
 }
 
 .welcome {
@@ -201,7 +200,6 @@ header > div > h2 {
   color: white;
 }
 
-
 .email {
   width: 648px;
   height: 72px;
@@ -210,10 +208,55 @@ header > div > h2 {
   text-align: center;
 }
 
-
 .eml-sub {
-padding: 48px 300px 80px 300px;
-display: flex;
+  padding: 48px 300px 80px 300px;
+  display: flex;
 }
 
-.main-five 
+.main-five {
+  background: #070211;
+  height: 600px;
+  margin-top: 120px;
+}
+
+.adress {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 120px 0 0 140px;
+}
+
+.adress-phone {
+  display: flex;
+  gap: 300px;
+  padding-bottom: 50px;
+}
+
+.phone {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 120px 290px 0 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 48px 0 48px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 0 140px 0 140px;
+
+}
+
+.copyright {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 120px 0;
+  margin: 0 140px 0 140px;
+}
